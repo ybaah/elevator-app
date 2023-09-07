@@ -7,8 +7,8 @@ var activeLift = document.querySelector(".activeLift");
 var goUp = false;
 var goDown = false;
 var goUpBreak = true;
-var audioS = new Audio("ding.mp3");
-var audioE = new Audio("error.mp3");
+var audioS = new Audio("../assests/audio/ding.mp3");
+var audioE = new Audio("../assests/audio/error.mp3");
 
 function callLift(lvl) {
 	//up down logic
