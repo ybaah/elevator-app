@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<title>Elevator</title>
+		<script defer src="main.js"></script>
+	</head>
+	<body>
+		<div class="mainLift">
+			<div class="text"></div>
+			<div class="eleLevel">
+				<div class="liftBtn">
+					<img src="down-arrow.png" alt="" onclick="callLift('l2')" />
+				</div>
+				<div class="liftBox" id="e-2">Level 2</div>
+			</div>
+			<div class="eleLevel">
+				<div class="liftBtn">
+					<img src="up-arrow.png" alt="" onclick="callLift('l1-u')" />
+					<img src="down-arrow.png" alt="" onclick="callLift('l1-d')" />
+				</div>
+				<div class="liftBox" id="e-1">Level 1</div>
+			</div>
+			<div class="eleLevel">
+				<div class="liftBtn">
+					<img src="up-arrow.png" alt="" onclick="callLift('l0')" />
+				</div>
+				<div class="liftBox activeLift" id="e-0">Level 0</div>
+			</div>
+		</div>
+	</body>
+</html>
